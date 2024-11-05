@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koi Fish Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+       
+        .containerrr {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+     
+
+    
+        /* Card Grid */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card i {
+            font-size: 2em;
+            color: #ff6b6b;
+            margin-bottom: 15px;
+        }
+
+        
+
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-menu ul {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="containerrr">
+        <!-- Featured Cards -->
+        <div class="card-grid">
+            <div class="card">
+                <i class="fas fa-fish"></i>
+                <h3>Koi Varieties</h3>
+                <p>Explore different types of Koi fish and their unique characteristics.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-water"></i>
+                <h3>Pond Care</h3>
+                <p>Learn about proper pond maintenance and water quality management.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-heart"></i>
+                <h3>Health Tips</h3>
+                <p>Essential information about keeping your Koi healthy and happy.</p>
+            </div>
+        </div>
+
+        <!-- Stats Section -->
+        <!-- <div class="stats">
+            <div class="stat-item">
+                <div class="stat-number">15+</div>
+                <div>Koi Varieties</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">35</div>
+                <div>Years Lifespan</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">90</div>
+                <div>cm Max Size</div>
+            </div>
+        </div> -->
+
+        <!-- Main Content (Your existing content here) -->
+        <!-- ... -->
+
+       
+    </div>
+</body>
+</html>
